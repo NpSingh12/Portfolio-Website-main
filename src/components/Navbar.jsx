@@ -9,9 +9,10 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = "/Narinder(Resume).pdf";
-    window.open(resumeUrl);
+    const resumeUrl = process.env.PUBLIC_URL + "/Narinder(Resume).pdf";
+    window.open(resumeUrl, "_blank");
   };
+  
 
   useEffect(() => {
     if (toggle) {
