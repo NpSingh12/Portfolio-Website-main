@@ -82,7 +82,7 @@ const ProjectCard = ({
 
 const Works = () => {
   return (
-    <>
+    <div id="works">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
@@ -102,7 +102,7 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} {...project} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

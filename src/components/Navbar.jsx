@@ -9,10 +9,10 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = process.env.PUBLIC_URL + "/Narinder-Resume.pdf";
+    const resumeUrl = `${window.location.origin}/Portfolio-Website-main/Narinder-Resume.pdf`;
     window.open(resumeUrl, "_blank");
   };
-  
+   
   
 
   useEffect(() => {
