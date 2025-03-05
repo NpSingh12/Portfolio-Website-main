@@ -47,20 +47,20 @@ mindmap
 
 ## 🚀 Demo
 
-Experience the live portfolio at [https://portfolio-lohit.vercel.app](https://portfolio-lohit.vercel.app)
+Experience the live portfolio at [https://npsingh12.github.io/Portfolio-Website-main/](https://npsingh12.github.io/Portfolio-Website-main/)
 
 ## 🛠️ Installation
 
 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/lohitkolluri/Portfolio-Website
+git clone https://github.com/NpSingh12/Portfolio-Website-main
 ```
 
 2️⃣ Navigate to project directory:
 
 ```bash
-cd Portfolio-Website
+cd Portfolio-Website-main
 ```
 
 3️⃣ Install dependencies:
@@ -130,7 +130,7 @@ npm run dev
 
 <div align="center">
 
-MIT License © [Lohit Kolluri](LICENSE)
+MIT License © [Narinder Pal Singh](LICENSE)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 
